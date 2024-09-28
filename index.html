@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="input">
+            <pre class="output" id="output">0</pre>
+        </div>
+        <div class="first-row">
+            <button onclick="appendToOutput('7')">7</button>
+            <button onclick="appendToOutput('8')">8</button>
+            <button onclick="appendToOutput('9')">9</button>
+            <button id="divide-btn" onclick="appendToOutput('/')">/</button>
+        </div>
+        <div class="second-row">
+            <button onclick="appendToOutput('4')">4</button>
+            <button onclick="appendToOutput('5')">5</button>
+            <button onclick="appendToOutput('6')">6</button>
+            <button id="multiply-btn" onclick="appendToOutput('*')">x</button>
+        </div>
+        <div class="third-row">
+            <button onclick="appendToOutput('1')">1</button>
+            <button onclick="appendToOutput('2')">2</button>
+            <button onclick="appendToOutput('3')">3</button>
+            <button id="subtract-btn" onclick="appendToOutput('-')">-</button>
+        </div>
+        <div class="fourth-row">
+            <button id="ce-btn" onclick="clearLastElement('CE')">CE</button>
+            <button onclick="appendToOutput('0')">0</button>
+            <button id="dot-btn" onclick="appendToOutput('.')">.</button>
+            <button id="add-btn" onclick="appendToOutput('+')">+</button>
+        </div>
+        <div class="fifth-row">
+            <button id="c-btn" onclick="clearOutput('C')">C</button>
+            <button onclick="calculateOutput('=')" class="equals-btn"
+                id="equals-btn">=</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

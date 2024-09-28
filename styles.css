@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 25%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+
+button {
+    width: 33.3%;
+    height: 50px;
+    margin: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px -4px 10px -4px rgba(0, 0, 0, 0.5) inset;
+    transition: 0.2s;
+}
+
+pre {
+    width: 300px;
+    margin: 5px;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: darkgray;
+}
+
+button:active {
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
+    transform: translateY(-1px);
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ce-btn {
+    background-color: hotpink;
+}
+
+#ce-btn:hover {
+    background-color: rgb(255, 0, 212);
+}
+
+#c-btn {
+    background-color: rgb(197, 142, 223);
+    width: 70px;
+}
+
+#c-btn:hover {
+    background-color: rgb(124, 52, 153);
+}
+
+#equals-btn {
+    width: 230px;
+    background-color: lightgrey;
+}
+
+#equals-btn:hover {
+    background-color: slategray;
+}
+
+#divide-btn {
+    background-color: greenyellow;
+}
+
+#divide-btn:hover {
+    background-color: green;
+}
+
+#multiply-btn {
+    background-color: skyblue;
+}
+
+#multiply-btn:hover {
+    background-color: rgb(41, 109, 199);
+}
+
+#subtract-btn {
+    background-color: gold;
+}
+
+#subtract-btn:hover {
+    background-color: goldenrod;
+}
+
+#add-btn {
+    background-color: lightcoral;
+}
+
+#add-btn:hover {
+    background-color: rgb(206, 66, 66);
+}
